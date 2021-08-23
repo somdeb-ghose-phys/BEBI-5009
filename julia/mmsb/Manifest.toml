@@ -1,5 +1,11 @@
 # This file is machine-generated - editing it directly is not advised
 
+[[AbstractAlgebra]]
+deps = ["InteractiveUtils", "LinearAlgebra", "Markdown", "Random", "RandomExtensions", "SparseArrays", "Test"]
+git-tree-sha1 = "11f56bb196abe983e0fe5c238c3a75d8a3c94f2a"
+uuid = "c3fe647b-3220-5bb0-a1ea-a7954cac585d"
+version = "0.21.0"
+
 [[AbstractTrees]]
 git-tree-sha1 = "03e0550477d86222521d254b741d470ba17ea0b5"
 uuid = "1520ce14-60c1-5f80-bbc7-55ef81b5835c"
@@ -78,6 +84,12 @@ deps = ["Artifacts", "Bzip2_jll", "Fontconfig_jll", "FreeType2_jll", "Glib_jll",
 git-tree-sha1 = "e2f47f6d8337369411569fd45ae5753ca10394c6"
 uuid = "83423d85-b0ee-5818-9007-b63ccbeb887a"
 version = "1.16.0+6"
+
+[[Catalyst]]
+deps = ["AbstractAlgebra", "DataStructures", "DiffEqBase", "DiffEqJump", "DocStringExtensions", "Latexify", "MacroTools", "ModelingToolkit", "Parameters", "Reexport", "Requires", "Symbolics"]
+git-tree-sha1 = "53faec3867f9cf27f1d3a4089173f24c8e20d5ea"
+uuid = "479239e8-5488-4da2-87a7-35f2df7eef83"
+version = "8.3.0"
 
 [[ChainRulesCore]]
 deps = ["Compat", "LinearAlgebra", "SparseArrays"]
@@ -940,6 +952,12 @@ deps = ["Libdl", "Random", "RandomNumbers"]
 git-tree-sha1 = "0e8b146557ad1c6deb1367655e052276690e71a3"
 uuid = "74087812-796a-5b5d-8853-05524746bad3"
 version = "1.4.2"
+
+[[RandomExtensions]]
+deps = ["Random", "SparseArrays"]
+git-tree-sha1 = "062986376ce6d394b23d5d90f01d81426113a3c9"
+uuid = "fb686558-2515-59ef-acaa-46db3789a887"
+version = "0.4.3"
 
 [[RandomNumbers]]
 deps = ["Random", "Requires"]
